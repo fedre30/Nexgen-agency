@@ -1,0 +1,169 @@
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.container{
+    width: 940px;
+    margin-left: 231px;
+
+}
+
+
+header{
+
+    background-image: url("img/bg.png");
+    background-size: cover;
+}
+
+.logo{
+    width: 150px;
+    height: 45px;
+    margin-left: 231px;
+    margin-top: 29px;
+}
+
+@media(max-width: 1920px) {
+    .logo{
+        margin-left: 300px;
+    }
+}
+
+.header-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+
+
+}
+
+.menu-container{
+    margin-top: 29px;
+}
+
+.menu-item{
+    margin-right: 3em;
+    display: inline-block;
+
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 1920px) {
+    .menu-link{
+        font-size: 20px;
+    }
+}
+
+.contactUs{
+    width: 150px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-top: 0.5em;
+
+}
+
+.contact-link{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+
+
+}
+
+.title-container{
+    margin-left: 231px;
+    margin-top: 170px;
+    width: 40%;
+
+}
+
+
+
+
+
+@media(max-width: 1920px) {
+
+    .title-container {
+        margin-top: 250px;
+        margin-left: 300px;
+    }
+
+    .title {
+        margin-bottom: 55px;
+
+    }
+
+    .title {
+        font-size: 63px;
+        color: white;
+
+    }
+
+    .subtitle {
+        font-size: 27px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+
+
+.play-img{
+
+}
+
+
+/* MEDIA QUERIES FOR MOBILE */
+@media(max-width: 480px) {
+
+    header{
+        width: 480px;
+        height: 400px;
+    }
+
+}
+
+
+/* MEDIA QUERIES FOR TABLET */
+@media(max-width: 768px) {
+
+    header{
+        width: 768px;
+        height: 500px;
+    }
+
+}
+
+/* MEDIA QUERIES FOR DESKTOP */
+@media(max-width: 960px) {
+
+    header{
+        width: 960px;
+        height: 600px;
+    }
+}
+
+/* MEDIA QUERIES FOR DESKTOP-LARGE*/
+@media(max-width: 1280px) {
+
+   header{
+       width: 1280px;
+       height: 621px;
+   }
+
+}
+
+@media(max-width: 1920px) {
+
+    header {
+        width: 1920px;
+        height: 821px;
+    }
+}
