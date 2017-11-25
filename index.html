@@ -6,29 +6,31 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300, 400" rel="stylesheet">
 
     <title>Maquette responsive</title>
 </head>
 <body>
 
+<!-- HEADER -->
 
-    <header>
-        <div class="header-container">
-            <a class="logo-link"><img class="logo" src="img/NextGEN.png" alt="logo"/></a>
-            <nav>
-                <ul class="menu-container">
-                    <li class="menu-item"><a class="menu-link" href="#">About</a></li>
-                    <li class="menu-item"><a class="menu-link" href="">Company</a></li>
-                    <li class="menu-item"><a class="menu-link" href="">Contact</a></li>
-                    <li class="menu-item"><div class="contactUs"><a class="contact-link" href="#">Contact Us</a></div></li>
-                </ul>
+<header>
+    <div class="header-container">
+        <a class="logo-link"><img class="logo" src="img/NextGEN.png" alt="logo"/></a>
+        <nav>
+            <ul class="menu-container">
+                <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+                <li class="menu-item"><a class="menu-link" href="">Company</a></li>
+                <li class="menu-item"><a class="menu-link" href="">Contact</a></li>
+                <li class="menu-item">
+                    <div class="contactUs"><a class="contact-link" href="#">Contact Us</a></div>
+                </li>
+            </ul>
 
-            </nav>
-        </div>
-
-
+        </nav>
+    </div>
 
 
     <div class="title-container">
@@ -41,12 +43,123 @@
         </a>
     </div>
 
-    </header>
-
-    <div class="container">
+</header>
 
 
+<!-- CONTENT -->
+
+<div class="container">
+    <section class="row introduction">
+        <div class="twelve columns nextDescription">The NextGEN Leadership team brings together Years of
+            experience building products for analytics and
+            business-to-business software companies.
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="four columns thumbnail">
+            <img src="img/Img1.png" alt="" class="thumb-img">
+            <h3 class="thumb-title">Digital Design Strategy</h3>
+            <p class="thumb-text">We design through an iterative process mind mapping ideas to find opportunities.</p>
+        </div>
+        <div class="four columns thumbnail">
+            <img src="img/Img2.png" alt="" class="thumb-img">
+            <h3 class="thumb-title">Branding, Illustration & Animation</h3>
+            <p class="thumb-text">Mind mapping ideas to find opportunities.</p>
+        </div>
+        <div class="four columns thumbnail">
+            <img src="img/Img3.png" alt="" class="thumb-img">
+            <h3 class="thumb-title">User Experience Design</h3>
+            <p class="thumb-text">We design through an iterative process mind mapping ideas to find opportunities.</p>
+        </div>
+    </section>
+
+</div>
+
+<div class="container">
+
+    <section class="row creativeAgency">
+        <div class="six columns textAgency">
+            <h4 class="titleAgency">We're a creative agency. Ask us about branding, design and advertising. Being small
+                we can go into details.</h4>
+            <p class="descriptionAgency">We design through an iterative process mind mapping ideas to find opportunities
+                and market niches, creating concepts. Your users are impatient. They're probably distracted too. Keep it
+                simple and beautiful, fun and functional. Clean aesthetics supported by a strong concept is what we
+                stand for. Your users are impatient. They're probably distracted too.</p>
+            <div class="learnMore"><p>Learn More</p></div>
+        </div>
+        <div class="six columns imgAgency"><img class="bitmapAgency" src="img/Mockup.svg"
+                                                alt="mockups Emotional Wellness"></div>
+
+    </section>
+
+</div>
+
+<div class="container">
+    <section class="comments">
+        <div class="commentsContainer">
+            <img class="commentsImg" src="img/front_pc.svg" alt="child in front of pc">
+            <div class="commentsText">
+                <blockquote class="quote">"After using agency my business skyrocketed! I just can't get enough of agency. I want to
+                    get a T-Shirt with agency on it so I can show it off to everyone. I would also like to say thank you
+                    to all your staff. Really good."
+                </blockquote>
+               <div class="author"><cite>Jean B. Robert - Microsoft</cite></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<section class="container">
+    <div class="row">
+        <div class="six columns experienceText">The NextGEN Leadership team brings together Years of
+            experience building products for analytics and
+            business-to-business software companies.
+        </div>
+        <div class="six columns viewProject">View All Project</div>
     </div>
+
+        <ul class="projects">
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/01.svg" alt="project"></a></li>
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/02.svg" alt="project"></a></li>
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/03.svg" alt="project"></a></li>
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/04.svg" alt="project"></a></li>
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/05.svg" alt="project"></a></li>
+            <li class="projectItem"><a href=""><img class="imgProject" src="img/06.svg" alt="project"></a></li>
+        </ul>
+
+
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="twelve columns question">
+            <h4 class="questionTitle">Have you tried NextGEN Agency?</h4>
+            <p class="questionText">We bring a huge wealth of experience to native application design and development as
+                an app design company based in London. We work with both established businesses and start-ups looking to
+                disrupt the market through innovative app design.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns contactUs-button">Contact Us</div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row twoSections">
+        <div class="six columns">
+            <h2 class="sectionTitle"></h2>
+            <img src="" alt="" class="backgroundSection">
+        </div>
+
+        <div class="six columns">
+            <h2 class="sectionTitle"></h2>
+            <img src="" alt="" class="backgroundSection">
+        </div>
+    </div>
+</section>
 
 
 </body>
