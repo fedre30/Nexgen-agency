@@ -1,5 +1,7 @@
 $title: #31475E
 $text: #6A7C92
+$line : #EAEAEA
+
 
 body
   font-family: 'Nunito', sans-serif
@@ -11,23 +13,10 @@ header
   background-image: url("img/bg.png")
   background-size: cover
 
-/* MEDIA QUERIES FOR MOBILE
-@media (max-width: 480px)
-  header
-    width: 480px
-    height: 400px
+  @media (max-width: 1920px)
+    width: 1920px
+    height: 821px
 
-/* MEDIA QUERIES FOR TABLET
-@media (max-width: 768px)
-  header
-    width: 768px
-    height: 500px
-
-/* MEDIA QUERIES FOR DESKTOP
-@media (max-width: 960px)
-  header
-    width: 960px
-    height: 600px
 
 /* MEDIA QUERIES FOR DESKTOP-LARGE
 @media (max-width: 1280px)
@@ -35,10 +24,23 @@ header
     width: 1280px
     height: 621px
 
-@media (max-width: 1920px)
+/* MEDIA QUERIES FOR DESKTOP
+@media (max-width: 960px)
   header
-    width: 1920px
-    height: 821px
+    width: 960px
+    height: 600px
+
+/* MEDIA QUERIES FOR TABLET
+@media (max-width: 768px)
+  header
+    width: 768px
+    height: 500px
+
+/* MEDIA QUERIES FOR MOBILE
+@media (max-width: 480px)
+  header
+    width: 480px
+    height: 400px
 
 .logo
   width: 150px
@@ -168,6 +170,7 @@ header
   box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 50)
   margin-top: 25px
   padding: 0.5em 1em 0.5em 1em
+  color: $text
 
   p
     text-align: center
@@ -197,6 +200,96 @@ header
   font-size: 1.84em
   padding: 8%
   color: $title
+
+
+
+/* SECTION EXPERIENCE */
+
+.experienceText
+  font-size: 1.84em
+  color: $title
+  width: 70%
+
+
+
+.viewProject
+  width: 20%
+  height: 20%
+  border: 1px solid white
+  border-radius: 2em
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 50)
+  padding: 0.5em 1em 0.5em 1em
+  color: $text
+  p
+    text-align: center
+
+
+.projects
+  display: flex
+  width: 100%
+  margin-top: 8%
+
+.imgProject
+  width: 100%
+
+
+.projectItem:not(:last-child)
+  margin-right: 1.5%
+
+
+
+  /* SECTION LOGOS */
+
+.collaborations
+  background: #F6F6F6
+  margin-top: 5%
+  margin-bottom: 5%
+
+
+.logoText
+  width: 80%
+  font-size: 1.87em
+  color: $title
+  line-height: 1.5em
+  margin: 0 auto
+  padding-top: 5%
+
+.logos
+  width: 100%
+  margin-top: 5%
+  margin-bottom: 5%
+
+
+
+.logosList
+  display: flex
+  flex-wrap: wrap
+  width: 90%
+  margin: 0 5%
+
+.logosList:not(:last-child)
+  border-bottom: 1px solid $line
+
+
+.partner-logo
+  padding: 5% 0
+  text-align: center
+
+.partner-logo:first-child
+  flex-grow: 2
+
+.partner-logo:not(:first-child)
+  width: 25%
+
+.partner-logo:not(:last-child)
+  border-right: 1px solid $line
+
+
+
+
+
+
+
 
 
 
